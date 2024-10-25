@@ -9,3 +9,45 @@ a{
 ul,ol,li{
     list-style: none;
 }
+html,body{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: gray;
+    padding: 32px;
+    position: fixed;
+    width: 100vw;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    color: white;
+    padding: 8px;
+    transition: 1s;
+}
+header nav a:hover{
+    border-bottom: 1px solid tomato;
+   
+}
+.grupo{
+    height: 100vh;
+    background-color: tomato;
+}
+#vermelho{
+    background-color: aquamarine;
+
+}
+#azul{
+    background-color: blue;
+}
+#verde{
+    background-color: green;
+}
+#amarelo{
+    background-color: aliceblue;
+}
+#roxo{
+    background-color: blueviolet;
+}
