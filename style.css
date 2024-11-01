@@ -73,6 +73,32 @@ header nav a:hover{
 #verde{
     background-color: yellow;
 }
+#verde h1{
+    position: absolute; 
+    top: 50%; 
+    left: 45%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 150px; 
+    text-align: center; 
+    z-index: 10; 
+    margin-top: 48%;
+    margin-left: 4%;
+
+}
+.curry{
+    position: absolute;
+    z-index: 2;
+    margin-left: 37%;
+    margin-top: 4%;
+    
+    
+}
+.quadra2{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
 #amarelo{
     background-color: aliceblue;
 }
