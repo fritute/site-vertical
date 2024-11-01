@@ -70,6 +70,33 @@ header nav a:hover{
 #azul{
     background-color: blue;
 }
+#azul h1{
+    position: absolute; 
+    top: 50%; 
+    left: 45%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(119, 115, 115); 
+    font-size: 150px; 
+    text-align: center; 
+    z-index: 10; 
+    margin-top: 101%;
+    margin-left: 4%;
+
+}
+.quadra3{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.lebron{
+    position: absolute;
+    z-index: 2;
+    margin-left: 34%;
+    margin-top:1%;
+    height: 100%;
+    
+  
+}
 #verde{
     background-color: yellow;
 }
@@ -102,6 +129,7 @@ header nav a:hover{
 #amarelo{
     background-color: aliceblue;
 }
+
 #roxo{
     background-color: blueviolet;
 }
